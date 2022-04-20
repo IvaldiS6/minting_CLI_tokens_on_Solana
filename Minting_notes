@@ -1,0 +1,52 @@
+spl-token create-token
+
+//-for NFT
+//spl-token create-token --decimals 0
+//-create token account
+//-mint 1
+//-disable future minting
+//spl-token authorize <token address> mint --disable
+
+spl-token create-account <token address>
+
+spl-token mint <token address> <# of tokens to mint> <token account>
+
+spl-token accounts //show token accounts
+
+spl-token transfer --fund-recipient --allow-unfunded-recipient <token address> <amount> <SOL wallet address>
+
+create repository
+upload logo
+click download
+   save the url
+
+github.com/solana-labs/token-list
+fork the token list
+on my forked repo press the "." button
+in the web editor
+  go to assets
+  new folder
+    paste token address as new name
+    upload the photo
+  go to src
+     tokens
+      in the .json file 
+        copy the required labels and fill in the blanks !!DO NOT MISS ANY BRACKETS/BRACES!!
+        add our coin information
+  commit the changes to our repository (add message)
+    click the checkmanrk
+at solana labs github
+  new pull request
+  compare across forks
+    change the head repository to mine
+  create pull request
+    wait...
+
+
+//logo must be less than 200kb
+
+
+solscan.io <token address>
+
+set it up on an exchange
+create a page to purchase/mint tokens
