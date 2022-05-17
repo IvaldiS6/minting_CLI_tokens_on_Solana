@@ -18,29 +18,30 @@ spl-token transfer --fund-recipient --allow-unfunded-recipient <token address> <
 create repository
 upload logo
 click download
-   save the url
+   save the download url either in a text file or leave the tab open //(I left the tab open)
 
-github.com/solana-labs/token-list
-fork the token list
-on my forked repo press the "." button
+github.com/solana-labs/token-list  //you will need a GitHub account
+fork the token list  //it will appear in your repositories
+on my forked repo (from your repositories) press the "." button on the keyboard to open visual studio code in the browser
 in the web editor
-  go to assets
+  go to assets  //In the left pane of the open window
   new folder
     paste token address as new name
-    upload the photo
-  go to src
-     tokens
+    upload the photo to the folder that was just created //I named it "logo.png"
+  go to src  
+     tokens  //this should be the last thing in the left pane for the moment
       in the .json file 
-        copy the required labels and fill in the blanks !!DO NOT MISS ANY BRACKETS/BRACES!!
+        copy the required labels and fill in the blanks !!DO NOT MISS ANY BRACKETS/BRACES!!  //I recommend copying an existing token that may perform a similar function to your new one
         add our coin information
-  commit the changes to our repository (add message)
-    click the checkmanrk
+//!!MAKE SURE EVERYTHING IS CORRECT, BECAUSE TRYING TO MODIFY A MERGED PULL REQUEST IS VERY DIFFICULT!!        
+  commit the changes to our repository (add message)  //you will need to go the the "commit tab" it is the one with the squiggles, mine is <> icons down
+    click the checkmark above the list of files and folders in the left pane
 at solana labs github
   new pull request
-  compare across forks
-    change the head repository to mine
+  compare across forks //this looks like a link
+    change the head repository to yours from the dropdown
   create pull request
-    wait...
+    wait...  //mine took about an hour
 
 
 //logo must be less than 200kb
