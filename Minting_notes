@@ -34,7 +34,7 @@ in the web editor
         copy the required labels and fill in the blanks !!DO NOT MISS ANY BRACKETS/BRACES!!  //I recommend copying an existing token that may perform a similar function to your new one
         add our coin information
 //!!MAKE SURE EVERYTHING IS CORRECT, BECAUSE TRYING TO MODIFY A MERGED PULL REQUEST IS VERY DIFFICULT!!        
-  commit the changes to our repository (add message)  //you will need to go the the "commit tab" it is the one with the squiggles, mine is <> icons down
+  commit the changes to our repository (add message)  //you will need to go the the "commit tab" it is the one with the squiggles, mine is 3 icons down
     click the checkmark above the list of files and folders in the left pane
 at solana labs github
   new pull request
