@@ -15,6 +15,9 @@ spl-token accounts //show token accounts
 
 spl-token transfer --fund-recipient --allow-unfunded-recipient <token address> <amount> <SOL wallet address>
 
+
+
+!!!everything below this has been deprecated !!!
 create repository
 upload logo
 click download
